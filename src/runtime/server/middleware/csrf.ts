@@ -2,6 +2,7 @@
 import { randomUUID, getRandomValues, subtle } from 'crypto'
 import { defineEventHandler, getCookie, setCookie, getHeader, createError } from 'h3'
 
+import { useRuntimeConfig } from "#imports"
 const csrfConfig = useRuntimeConfig().csurf
 
 const importKey = async (key: JsonWebKey) => {
