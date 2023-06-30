@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-csurf",
+  "name": "nuxt3-csurf",
   "version": "1.2.0",
   "description": "Nuxt Cross-Site Request Forgery (CSRF) Prevention",
   "keywords": [
@@ -42,6 +42,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/69u/nuxt-csurf.git"
+    "url": "https://github.com/69u/nuxt3-csurf.git"
   }
 }
