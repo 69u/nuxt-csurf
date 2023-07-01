@@ -1,12 +1,12 @@
 # 🏄‍♂️ Nuxt Cross-Site Request Forgery (CSRF) Prevention
 
-Create a middleware for CSRF token creation and validation. 
+Create a middleware for CSRF token creation and validation in serverless environments.
 
 ## Setup
 
 ```sh
-yarn add nuxt-csurf # yarn
-npm i nuxt-csurf # npm
+yarn add nuxt3-csurf # yarn
+npm i nuxt3-csurf # npm
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ The only thing you need to do to use the module in the default configuration is 
 // nuxt.config.js
 {
   modules: [
-    "nuxt-csurf",
+    "nuxt3-csurf",
   ],
   csurf: { // optional
     https: false, // default true if in production
